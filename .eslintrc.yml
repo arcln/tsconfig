@@ -104,6 +104,7 @@ rules:
   no-eval: 'off'
   sort-keys: 'off'
   one-var: 'off'
+  dot-location: 'off'
   space-before-function-paren: 'off'
   padded-blocks: 'off'
   id-length: 'off'
