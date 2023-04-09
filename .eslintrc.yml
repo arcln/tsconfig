@@ -108,6 +108,8 @@ rules:
   padded-blocks: 'off'
   id-length: 'off'
   no-shadow: 'off'
+  strict: 'off'
+  no-implicit-globals: 'off'
   react-hooks/exhaustive-deps: 'off'
   import/no-anonymous-default-export: 'off'
   react/style-prop-object: 'off'
