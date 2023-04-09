@@ -11,6 +11,10 @@ parser: '@typescript-eslint/parser'
 
 globals:
   console: true
+  setTimeout: true;
+  clearTimeout: true;
+  setInterval: true;
+  clearInterval: true;
   __DEV__: true
 
 rules:
