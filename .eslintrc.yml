@@ -10,6 +10,7 @@ plugins:
 parser: '@typescript-eslint/parser'
 
 globals:
+  console: true
   __DEV__: true
 
 rules:
