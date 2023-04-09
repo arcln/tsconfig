@@ -1,0 +1,9 @@
+{
+  "name": "@arcln/tsconfig",
+  "version": "0.1.0",
+  "peerDependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
+  }
+}

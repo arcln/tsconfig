@@ -1,0 +1,115 @@
+extends:
+  - eslint:all
+
+ignorePatterns:
+  - '*.d.ts'
+
+plugins:
+  - '@typescript-eslint'
+
+parser: '@typescript-eslint/parser'
+
+globals:
+  __DEV__: true
+
+rules:
+  jsx-quotes:
+    - error
+    - prefer-single
+  comma-dangle:
+    - error
+    - always-multiline
+  func-style:
+    - error
+    - declaration
+    - allowArrowFunctions: true
+  quote-props:
+    - error
+    - as-needed
+  function-call-argument-newline:
+    - error
+    - consistent
+  object-curly-spacing:
+    - error
+    - always
+  multiline-comment-style:
+    - error
+    - separate-lines
+  no-console:
+    - warn
+    - allow:
+        - debug
+        - info
+        - warn
+  prefer-destructuring:
+    - error
+    - array: false
+  spaced-comment:
+    - error
+    - always
+    - markers:
+        - '/'
+  object-property-newline: warn
+  no-negated-condition: warn
+  no-irregular-whitespace: 'off'
+  consistent-return: 'off'
+  max-depth: 'off'
+  indent: 'off'
+  quotes: 'off'
+  no-undefined: 'off'
+  no-confusing-arrow: 'off'
+  init-declarations: 'off'
+  prefer-named-capture-group: 'off'
+  no-magic-numbers: 'off'
+  no-restricted-properties: 'off'
+  logical-assignment-operators: 'off'
+  no-new: 'off'
+  new-cap: 'off'
+  no-empty: 'off'
+  no-mixed-spaces-and-tabs: 'off'
+  no-invalid-this: 'off'
+  consistent-this: 'off'
+  func-names: 'off'
+  no-await-in-loop: 'off'
+  max-lines: 'off'
+  complexity: 'off'
+  no-case-declarations: 'off'
+  max-params: 'off'
+  no-warning-comments: 'off'
+  guard-for-in: 'off'
+  no-continue: 'off'
+  function-paren-newline: 'off'
+  jsx-a11y/alt-text: 'off'
+  require-atomic-updates: 'off'
+  class-methods-use-this: 'off'
+  no-empty-function: 'off'
+  no-promise-executor-return: 'off'
+  max-statements: 'off'
+  newline-per-chained-call: 'off'
+  implicit-arrow-linebreak: 'off'
+  no-ternary: 'off'
+  no-void: 'off'
+  multiline-ternary: 'off'
+  no-extra-parens: 'off'
+  max-lines-per-function: 'off'
+  array-element-newline: 'off'
+  capitalized-comments: 'off'
+  no-tabs: 'off'
+  no-underscore-dangle: 'off'
+  no-duplicate-imports: 'off'
+  camelcase: 'off'
+  sort-imports: 'off'
+  max-len: 'off'
+  no-eval: 'off'
+  sort-keys: 'off'
+  one-var: 'off'
+  space-before-function-paren: 'off'
+  padded-blocks: 'off'
+  id-length: 'off'
+  no-shadow: 'off'
+  react-hooks/exhaustive-deps: 'off'
+  import/no-anonymous-default-export: 'off'
+  react/style-prop-object: 'off'
+  '@typescript-eslint/no-shadow': 'off'
+  '@typescript-eslint/no-explicit-any': error
+  '@typescript-eslint/explicit-module-boundary-types': error
