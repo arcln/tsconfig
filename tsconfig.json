@@ -8,6 +8,7 @@
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "strictPropertyInitialization": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
   }
 }
